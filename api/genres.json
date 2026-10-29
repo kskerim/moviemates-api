@@ -1,0 +1,78 @@
+[
+  {
+    "id": "animation",
+    "label": "Animation"
+  },
+  {
+    "id": "western",
+    "label": "Western"
+  },
+  {
+    "id": "horror",
+    "label": "Horreur"
+  },
+  {
+    "id": "science-fiction",
+    "label": "Science-Fiction"
+  },
+  {
+    "id": "fantasy",
+    "label": "Fantastique"
+  },
+  {
+    "id": "war",
+    "label": "Guerre"
+  },
+  {
+    "id": "musical",
+    "label": "Musical"
+  },
+  {
+    "id": "biopic",
+    "label": "Biopic"
+  },
+  {
+    "id": "documentary",
+    "label": "Documentaire"
+  },
+  {
+    "id": "sport",
+    "label": "Sportif"
+  },
+  {
+    "id": "crime",
+    "label": "Policier"
+  },
+  {
+    "id": "thriller",
+    "label": "Thriller"
+  },
+  {
+    "id": "action",
+    "label": "Action"
+  },
+  {
+    "id": "adventure",
+    "label": "Aventure"
+  },
+  {
+    "id": "romance",
+    "label": "Romance"
+  },
+  {
+    "id": "comedy",
+    "label": "Comédie"
+  },
+  {
+    "id": "family",
+    "label": "Familial"
+  },
+  {
+    "id": "history",
+    "label": "Historique"
+  },
+  {
+    "id": "drama",
+    "label": "Drame"
+  }
+]
