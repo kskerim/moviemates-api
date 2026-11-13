@@ -1,7 +1,7 @@
 // construit api/movies.json et api/genres.json à partir de deux sources libres d'accès :
 // sample apis (titre, affiche, identifiant imdb, catégorie) et wikidata (titre français, année,
 // durée, réalisateurs, acteurs, genres...)
-// lancement : node scripts/construire.mjs
+// lancement : node scripts/construire.mjs (réécrit aussi api/3/, voir scripts/tmdb.mjs)
 
 import { mkdir, writeFile } from "node:fs/promises";
 
@@ -310,3 +310,6 @@ await mkdir(DOSSIER_API, { recursive: true });
 await writeFile(new URL("movies.json", DOSSIER_API), JSON.stringify(movies, null, 2) + "\n");
 await writeFile(new URL("genres.json", DOSSIER_API), JSON.stringify(genres, null, 2) + "\n");
 console.log(`${movies.length} films écrits dans api/movies.json`);
+
+// mêmes données au format tmdb v3, dans api/3/
+await import("./tmdb.mjs");
